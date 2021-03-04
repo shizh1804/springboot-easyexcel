@@ -22,7 +22,7 @@ public class ExcelController {
         ExcelUtil.writeExcel(response, excelService.queryAll(), fileName, sheetName, new ReportId());
 
     }
-12345=1234567890-
+
     @RequestMapping("/queryAll")
     public List<ReportId> queryAll() {
     return excelService.queryAll();
